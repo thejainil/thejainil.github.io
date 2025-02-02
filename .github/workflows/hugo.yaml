@@ -2,7 +2,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change to 'master' if that's your default branch
+      - main  # Change 'main' to 'master' if your default branch is 'master'
 
 permissions:
   contents: read
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # ✅ Latest version
+        uses: actions/checkout@v4
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -25,10 +25,9 @@ jobs:
         run: hugo --minify
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4  # ✅ FIXED (Updated from v3 to v4)
+        uses: actions/upload-pages-artifact@v2  # ✅ Correct artifact action
         with:
-          name: github-pages
-          path: ./public
+          path: public  # ✅ Ensures that Hugo output is correctly uploaded
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2  # ✅ Latest version
+        uses: actions/deploy-pages@v2
