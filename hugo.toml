@@ -1,4 +1,13 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = ''
 theme = 'PaperMod' 
+
+
+[params]
+  defaultTheme = "dark"  # Forces dark mode
+  disableThemeToggle = true  # Removes the light/dark switcher
+  customCSS = "css/extended/custom.css"
+
+sectionPagesMenu = ""
+
