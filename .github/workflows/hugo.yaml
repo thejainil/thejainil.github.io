@@ -31,15 +31,19 @@ jobs:
         env:
           HUGO_ENV: production  # Ensure production environment is used
 
-      # ✅ Debug Step: Check if `public/` directory is created
+      # ✅ Debug: Check if `public/` is generated
       - name: List generated files
         run: ls -la public
 
-      # Upload artifact if the build was successful
+      # ✅ Fix Upload: Explicitly set artifact name
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
+          name: hugo-site
           path: public  # Ensure Hugo output is correctly referenced
 
+      # ✅ Fix Deployment: Use correct artifact reference
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
+        with:
+          artifact_name: hugo-site  # Match artifact name from upload step
