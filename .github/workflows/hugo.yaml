@@ -1,8 +1,9 @@
 name: Deploy Hugo site to GitHub Pages
+
 on:
   push:
     branches:
-      - main  # Change 'main' to 'master' if your default branch is 'master'
+      - main  # Change to 'master' if your default branch is 'master'
 
 permissions:
   contents: read
@@ -12,22 +13,34 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Step 2: Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
 
+      # Step 3: Install dependencies (optional, for themes/modules)
+      - name: Install dependencies
+        run: sudo apt-get install -y git
+
+      # Step 4: Build the Hugo site
       - name: Build site
         run: hugo --minify
+        env:
+          HUGO_ENV: production  # Ensure the production environment is used
 
+      # Step 5: Upload artifact for deployment
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3  # ✅ Correct artifact action
+        uses: actions/upload-pages-artifact@v3  # ✅ Corrected version
         with:
-          path: public  # ✅ Ensures that Hugo output is correctly uploaded
+          path: public  # ✅ Hugo output directory
 
+      # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
