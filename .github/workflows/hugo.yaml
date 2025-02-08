@@ -15,32 +15,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
 
-      # Step 3: Install dependencies (optional, for themes/modules)
       - name: Install dependencies
         run: sudo apt-get install -y git
 
-      # Step 4: Build the Hugo site
       - name: Build site
         run: hugo --minify
         env:
-          HUGO_ENV: production  # Ensure the production environment is used
+          HUGO_ENV: production  # Ensure production environment is used
 
-      # Step 5: Upload artifact for deployment
+      # ✅ Debug Step: Check if `public/` directory is created
+      - name: List generated files
+        run: ls -la public
+
+      # Upload artifact if the build was successful
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3  # ✅ Corrected version
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: public  # ✅ Hugo output directory
+          path: public  # Ensure Hugo output is correctly referenced
 
-      # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
