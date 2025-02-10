@@ -1,13 +1,11 @@
 {{ define "main" }}
-  
+  <h1 class="essays-title">{{ .Title }}</h1>
 
-  <h3 class="essays-intro">{{ .Content }}</h3> <!-- This ensures spacing applies correctly -->
+  <h3 class="essays-intro">{{ .Content }}</h3>
 
   <ul class="essays-list">
     {{ range .Pages }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
-      </li>
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
 {{ end }}
