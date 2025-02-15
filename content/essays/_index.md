@@ -1,5 +1,6 @@
 ---
-layout: "list"  # Use "single" if it's a single post
+title: "Essays"
+layout: "list"
 ---
 
 ### raw, unfiltered writings on observations and epiphanies.
