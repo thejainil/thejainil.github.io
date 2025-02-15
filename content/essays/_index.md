@@ -1,5 +1,4 @@
 ---
-
 layout: "list"  # Use "single" if it's a single post
 ---
 
