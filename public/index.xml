@@ -6,21 +6,6 @@
     <description>Recent content in Home on </description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>lore</title>
-      <link>http://localhost:1313/essays/e2/</link>
-      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/essays/e2/</guid>
-      <description>&lt;p&gt;This is my second essay in the new section!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>my first essay</title>
-      <link>http://localhost:1313/essays/e1/</link>
-      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/essays/e1/</guid>
-      <description>&lt;p&gt;This is my first essay in the new section!&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
