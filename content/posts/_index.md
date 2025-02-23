@@ -1,6 +1,6 @@
 ---
-title: "Posts"
-layout: "list"
+title: "posts"
+
 draft: "false"
 ---
 
