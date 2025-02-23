@@ -12,3 +12,4 @@ theme = 'PaperMod'
 sectionPagesMenu = ""
 
 publishDir = "public"
+
