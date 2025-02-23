@@ -37,7 +37,7 @@ jobs:
 
       # ✅ Use the latest artifact action (`upload-pages-artifact@v3`)
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3  # Ensure the correct version is used
+        uses: actions/upload-pages-artifact@v4  # Ensure the correct version is used
         with:
           path: public  # Hugo output directory
 
