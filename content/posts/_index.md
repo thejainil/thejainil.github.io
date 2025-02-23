@@ -1,5 +1,5 @@
 ---
-title: "Essays"
+title: "Posts"
 layout: "list"
 draft: "false"
 ---
