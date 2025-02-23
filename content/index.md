@@ -10,6 +10,6 @@ current - wall st. degen at [alpha-alt](https://alt-alpha.com/). learning to bec
 
 
 ---
-[essays](/essays/) | [past work](https://www.notion.com/) 
+[essays](/posts/) | [past work](https://www.notion.com/) 
 
 
