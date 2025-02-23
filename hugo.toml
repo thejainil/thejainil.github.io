@@ -13,6 +13,8 @@ sectionPagesMenu = ""
 
 publishDir = "public"
 
+[params.assets]
+  disableFingerprinting = true
 
 
   
