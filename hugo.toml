@@ -12,7 +12,7 @@ theme = "PaperMod"
 sectionPagesMenu = ""
 
 publishDir = "public"
-disableKinds = ["taxonomy", "term"]
+
 
 
   

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>posts on </title>
-    <link>http://localhost:1313/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in posts on </description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test Post</title>
-      <link>http://localhost:1313/posts/e1/</link>
+      <link>//localhost:1313/posts/e1/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/e1/</guid>
+      <guid>//localhost:1313/posts/e1/</guid>
       <description>&lt;p&gt;This is a test post content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>lore</title>
-      <link>http://localhost:1313/posts/e2/</link>
+      <link>//localhost:1313/posts/e2/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/e2/</guid>
-      <description>&lt;p&gt;This is my second essay in the new section in tnhkj&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/e2/</guid>
+      <description>&lt;p&gt;This is my second essay in the new section in this site.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

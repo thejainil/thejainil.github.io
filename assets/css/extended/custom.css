@@ -30,34 +30,5 @@ nav {
     display: none !important;
 }
 
-/* Remove box-style formatting */
-.article-entry, .article-card {
-    border: none !important;
-    background: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    margin: 5px 0 !important;
-}
-
-/* Adjust list styles for better readability */
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    font-size: 18px;
-    margin: 5px 0;
-}
-
-li a {
-    text-decoration: none;
-    color: #ccc; /* Adjust color if needed */
-}
-
-li a:hover {
-    color: #fff; /* Slightly brighter on hover */
-}
-
 
 
