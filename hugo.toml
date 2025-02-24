@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://jainilv1.netlify.app/'
 languageCode = 'en-us'
 title = ''
 theme = "PaperMod" 
