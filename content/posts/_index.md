@@ -4,5 +4,5 @@ draft: "false"
 layout: "list"
 ---
 
-### raw, unfiltered writings on observations and epiphanies
+### raw, unfiltered writings on observations and epiphanies.
 
