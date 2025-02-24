@@ -1,9 +1,9 @@
 {{ define "main" }}
-  <h1 class="essays-title">{{ .Title }}</h1>
+  <h1 class="posts-title">{{ .Title }}</h1>
 
-  <h3 class="essays-intro">{{ .Content }}</h3>
+  <h3 class="posts-intro">{{ .Content }}</h3>
 
-  <ul class="essays-list">
+  <ul class="posts-list">
     {{ range .Pages }}
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
