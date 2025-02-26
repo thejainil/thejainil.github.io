@@ -1,6 +1,7 @@
 ---
-title: "Home"
+title: "jainilt"
 layout: "home"
+draft: false
 ---
 
 

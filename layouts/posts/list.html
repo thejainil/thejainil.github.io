@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="post-content">
+    {{ with .Content }}
+      <div class="post-intro">
+        {{ . }} <!-- This ensures _index.md content is displayed -->
+      </div>
+    {{ end }}
+
+    <ul class="essay-list">
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

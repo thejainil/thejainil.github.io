@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Home on </title>
+    <title>jainilt on </title>
     <link>https://jainilv1.netlify.app/</link>
-    <description>Recent content in Home on </description>
+    <description>Recent content in jainilt on </description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
@@ -20,7 +20,8 @@
       <link>https://jainilv1.netlify.app/posts/e2/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://jainilv1.netlify.app/posts/e2/</guid>
-      <description>&lt;p&gt;This is my second essay in the new section in this site.&lt;/p&gt;</description>
+      <description>&lt;p&gt;i grew up in ahmedabad, a city where centuries of commerce still fuel the daily grind. childhood evenings were a mix of cricket and building stuff-  be it lego scorpion, clash royale bot or just some origami.&lt;/p&gt;
+&lt;p&gt;family dinners used to revolve around businesses, number crunching, pro - capitalistic talks. my dad and uncles used to run traditional businesses in different sectors - desi business mentors fr. first venture w my cousin - building a supply chain for an online firecracker shop. it was 11th grade.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
