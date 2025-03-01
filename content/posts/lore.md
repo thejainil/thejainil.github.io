@@ -3,6 +3,8 @@ title: "lore"
 date: 2025-02-10
 draft: false  
 ---
+## lore
+
 i grew up in ahmedabad, a city where centuries of commerce still fuel the daily grind. childhood evenings were a mix of cricket and building stuff-  be it lego scorpion, clash royale bot or just some origami.
 
 family dinners used to revolve around businesses, number crunching, pro - capitalistic talks. my dad and uncles used to run traditional businesses in different sectors - desi business mentors fr. first venture w my cousin - building a supply chain for an online firecracker shop. it was 11th grade. 

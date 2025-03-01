@@ -30,5 +30,17 @@ nav {
     display: none !important;
 }
 
+.post-date {
+    font-size: 0.9rem;  /* Make text smaller */
+    color: #777;        /* Greyed-out color */
+}
+
+body {
+    font-family: 'Lora', serif !important;
+}
+
+.dark {
+    --content: #ffffff !important; /* Force text color to full white */
+}
 
 
