@@ -9,7 +9,7 @@ i grew up in ahmedabad, a city where centuries of commerce still fuel the daily 
 
 family dinners used to revolve around businesses, number crunching, pro - capitalistic talks. my dad and uncles used to run traditional businesses in different sectors - desi business mentors fr. first venture w my cousin - building a supply chain for an online firecracker shop. it was 11th grade. 
 
-content bug bit very early and hard. started 2 youtube channels post jio release. covid hit - most of the time was spent on discord servers playing valorant or world of warships with internet friends. got introduced to internet money by a bunch of great folks who had started avalon meta. went hard-grind learning pr, ps, figma, running ads. started working with a uk based media company. worked with finnet and ggi during its early stage. 
+content bug bit very early and hard. started 2 youtube channels. first 100$ from adsense in 2018. covid hit - most of the time was spent on discord servers playing valorant or world of warships with internet friends. got introduced to internet money by a bunch of great folks who had started avalon meta. went hard-grind learning pr, ps, figma, running ads. started working with a uk based media company. worked with [finnet](https://www.finnetmedia.com/) and [ggi](https://www.globalgovernanceinitiative.org/) during its early stage. 
 
 took up a full time job to work on a web3 project. didn’t materialize, started building b2b partnerships for a deeptech company. moved to hedge fund - traded spreads and delta one commodity instruments.
 
