@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-### 23. foot in athens, heart in sparta. 
+### 23. half apollo, half dionysus. full chaos. 
 
 current - wall st. degen at [alpha-alt](https://alt-alpha.com/). less noise, more signal. less friction, more flow. stoic mind, lithe body, and a space full of love.  prev - did come content | b2b gtm and research at [interlynk](https://drive.google.com/file/d/1jeBm1kOUqw9ZivE_gQb3sJrQJBH3Emke/view?usp=sharing). ahmedabad/mumbai. outside work: poker, meditation, sports.
 
