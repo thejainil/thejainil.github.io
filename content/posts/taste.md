@@ -1,7 +1,7 @@
 ---
 title: "cultural architects and the arbitrers of taste"
 date: 2025-05-21
-draft: true  
+draft: false  
 ---
 ## cultural architects and the arbitrers of taste
 
@@ -12,6 +12,7 @@ but something changed.
 fast forward to today, and software is everywhere—cheap, abundant, almost boring. ai walked in and kicked the door wide open. anyone with a browser and a prompt can summon code. the secret spells have become autocomplete suggestions.
 
 ![taste](/images/taste.webp)
+
 software still eats the world, but taste decides who gets to serve the meal.
 
 the markets being served today aren’t just markets — they’re cultural movements. founders used to pitch uptime and latency; now they pitch vibes. design, brand, experience, story, community — the full stack of human emotion.
